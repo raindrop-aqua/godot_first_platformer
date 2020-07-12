@@ -11,5 +11,6 @@ var _velocity: = Vector2.ZERO
 func _physics_process(delta: float) -> void:
 	_velocity.y += gravity * delta
 
+
 func die() -> void:
 	queue_free()
